@@ -10,3 +10,11 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: var(--heading);
+}
