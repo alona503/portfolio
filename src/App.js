@@ -6,18 +6,20 @@ import Web from './components/Web'
 import Nav from './components/Nav'
 import Notfound from './pages/Notfound'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import Footer from './components/Footer'
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div>
         <Nav />
+        <Switch>
+          <Route path="/" component={About} exact />
+          <Route path="/qa" component={Qa} />
+          <Route path="/web" component={Web} />
+          <Route component={Notfound} />
+        </Switch>
+        <Footer />
       </div>
-      <Switch>
-        <Route path="/" component={About} exact />
-        <Route path="/qa" component={Qa} />
-        <Route path="/web" component={Web} />
-        <Route component={Notfound} />
-      </Switch>
     </BrowserRouter>
   )
 }
