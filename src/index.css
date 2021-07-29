@@ -5,17 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--background);
   font-weight: 500;
   padding: 0;
   height: 100%;
 }
+
 :root {
   --background: #c18c5d;
   --text: #495867;
+  --black: #14110f;
   --heading: #ce796b;
   --light-pink: #e7ad99;
   --brown-light: #ecc8af;
+  --bottom-background: #f1f1f1;
 }
 
 code {

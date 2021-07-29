@@ -5,17 +5,17 @@ export default function Nav() {
   return (
     <nav>
       <ul className="nav left">
-        <li>ALONAS</li>
+        <li>ALONAS.</li>
       </ul>
       <ul className="nav right">
         <li className="navItem">
           <Link to="/">About</Link>
         </li>
         <li className="navItem">
-          <Link to="/web">Web</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li className="navItem">
-          <Link to="/qa">QA</Link>
+          <Link to="/order">Order</Link>
         </li>
       </ul>
     </nav>
